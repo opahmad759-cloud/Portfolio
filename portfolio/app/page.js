@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="project">
+      <section id="project" className="scroll-mt-20">
         <div className="mx-auto max-w-245 px-6 py-2 text-[#5B8CFF] font-semibold text-sm">
           01 — WORK
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
                   <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">MongoDB</span>
                 </div>
                 <div className="flex gap-5 px-3 py-1 pb-3 font-semibold text-sm">
-                  <a className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
+                  <a href="https://get-me-a-chai-tp8e.vercel.app/" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
                   <a href="https://github.com/opahmad759-cloud/Get-Me-A-Chai" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Source code →</a>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function Home() {
                   <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">MongoDB</span>
                 </div>
                 <div className="flex gap-5 px-3 py-1 pb-3 font-semibold text-sm">
-                  <a className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
+                  <a href="https://pass-op-git-main-mern-stack19.vercel.app/" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
                   <a href="https://github.com/opahmad759-cloud/url-shortner" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Source code →</a>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function Home() {
                   <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">MongoDB</span>
                 </div>
                 <div className="flex gap-5 px-3 py-1 pb-3 font-semibold text-sm">
-                  <a className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
+                  <a href="https://pass-op-taupe.vercel.app/" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
                   <a href="https://github.com/opahmad759-cloud/PassOP" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Source code →</a>
                 </div>
               </div>
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="skill">
+      <section className="scroll-mt-20" id="skill">
         <div className="mx-auto max-w-245 px-6 py-2 mt-34 text-[#5B8CFF] font-semibold text-sm">
           02 — Tools & Skills
         </div>
@@ -132,7 +132,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="about">
+      <section id="about" className="scroll-mt-20">
         <div className="mx-auto max-w-245 px-6 py-2 mt-34 text-[#5B8CFF] font-semibold text-sm">
           03 — About Me
         </div>
