@@ -21,7 +21,7 @@ export default function Home() {
             <i className="h-2 w-2 rounded-full bg-[#34d399] shadow-[0_0_0_4px_rgba(52,211,153,.2)]" />
             Open to internships
           </span>
-          <h1 className="text-6xl font-bold">Hi, I'm <span className="bg-linear-to-r from-[#5B8CFF] to-[#9DB9FF] bg-clip-text text-transparent">Ahmad Mehboob</span></h1>
+          <h1 className="scroll-mt-20 text-6xl font-bold">Hi, I'm <span className="bg-linear-to-r from-[#5B8CFF] to-[#9DB9FF] bg-clip-text text-transparent">Ahmad Mehboob</span></h1>
           <p className="py-2 text-6xl font-bold max-w-3xl">I build clean websites with React.</p>
           <p className="text-[#9AA6C0] font-medium max-w-xl my-3 py-1.5">Junior React developer looking for an internship where I can build real products and keep learning.</p>
           <div className="flex gap-5 items-center mt-7">
@@ -86,7 +86,7 @@ export default function Home() {
                   <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">MongoDB</span>
                 </div>
                 <div className="flex gap-5 px-3 py-1 pb-3 font-semibold text-sm">
-                  <a href="https://pass-op-git-main-mern-stack19.vercel.app/" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
+                  <a href="https://url-shortner-khaki-eta.vercel.app/" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
                   <a href="https://github.com/opahmad759-cloud/url-shortner" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Source code →</a>
                 </div>
               </div>
