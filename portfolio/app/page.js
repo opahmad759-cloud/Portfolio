@@ -17,6 +17,9 @@ export default function Home() {
 
         {/* your hero content goes inside this box */}
         <div className="mx-auto max-w-245 px-6 py-24 ">
+          <div className="absolute bottom-60 right-40 flex h-40 w-40 items-center justify-center rounded-full bg-linear-to-br from-[#5B8CFF] to-[#9DB9FF] text-5xl font-bold text-[#0B1020] shadow-[0_0_0_6px_#131A2E,0_0_0_7px_#243050,0_20px_50px_-10px_rgba(91,140,255,.35)] max-[750px]:static max-[750px]:mb-6 max-[750px]:h-27.5 max-[750px]:w-27.5 max-[750px]:text-4xl max-[900px]:right-10">
+            AM
+          </div>
           <span className=" mb-7 top inline-flex items-center gap-3 text-center bg-[rgba(91,140,255,.12)]  py-2 px-3.5 rounded-full text-sm font-semibold leading-6 text-[#E8ECF5]">
             <i className="h-2 w-2 rounded-full bg-[#34d399] shadow-[0_0_0_4px_rgba(52,211,153,.2)]" />
             Open to internships
@@ -41,9 +44,6 @@ export default function Home() {
               <b className="block font-bold text-3xl">6 hrs</b>
               <span className="text-[#9AA6C0]">Coding every day</span>
             </div>
-          </div>
-          <div className="flex absolute bottom-60 h-40 w-40 items-center justify-center rounded-full right-40 bg-linear-to-br from-[#5B8CFF] to-[#9DB9FF] text-5xl font-bold text-[#0B1020] shadow-[0_0_0_6px_#131A2E,0_0_0_7px_#243050,0_20px_50px_-10px_rgba(91,140,255,.35)]">
-            AH
           </div>
         </div>
       </section>
