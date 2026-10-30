@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <span className=" mb-7 top inline-flex items-center gap-3 text-center bg-[rgba(91,140,255,.12)]  py-2 px-3.5 rounded-full text-sm font-semibold leading-6 text-[#E8ECF5]">
             <i className="h-2 w-2 rounded-full bg-[#34d399] shadow-[0_0_0_4px_rgba(52,211,153,.2)]" />
-            Open to internships
+            Open for work
           </span>
           <h1 className="scroll-mt-20 text-6xl font-bold">Hi, I'm <span className="bg-linear-to-r from-[#5B8CFF] to-[#9DB9FF] bg-clip-text text-transparent">Ahmad Mehboob</span></h1>
           <p className="py-2 text-6xl font-bold max-w-3xl">I build clean websites with React.</p>
@@ -39,10 +39,6 @@ export default function Home() {
             <div className="flex flex-col gap-1">
               <b className="block font-bold text-3xl">React</b>
               <span className="text-[#9AA6C0]">Main Skill</span>
-            </div>
-            <div className="flex flex-col gap-1">
-              <b className="block font-bold text-3xl">6 hrs</b>
-              <span className="text-[#9AA6C0]">Coding every day</span>
             </div>
           </div>
         </div>
@@ -139,7 +135,7 @@ export default function Home() {
         <div className="mx-auto max-w-245 px-6 py-2">
           <h2 className="text-4xl font-bold mb-3">About Me</h2>
           <div className="text-[#9AA6C0] my-4 mb-6 font-medium max-w-xl" id="about">I’m Ahmad Mehboob, a React developer from Pakistan. I love building websites because every project is a chance to solve a real problem and learn something new. I code every day, and I’m looking for an internship where I can learn from a team and contribute to real projects.</div>
-          <div className="text-[#9AA6C0] my-4 mb-6 font-medium max-w-xl" id="about">I can give 6+ hours every day and I'm ready for real tasks and a small test project.</div>
+          <div className="text-[#9AA6C0] my-4 mb-6 font-medium max-w-xl" id="about">I can give 8+ hours every day and I'm ready for real tasks and a small test project.</div>
         </div>
       </section>
 
