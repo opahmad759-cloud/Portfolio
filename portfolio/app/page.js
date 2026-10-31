@@ -2,6 +2,14 @@ import Image from "next/image";
 import ContactForm from "./components/ContactForm";
 
 export default function Home() {
+
+  const skillGroups = [
+    { title: "Frontend", items: ["Next.js", "React.js", "JavaScript", "Tailwind CSS", "HTML & CSS"] },
+    { title: "Backend", items: ["Node.js", "Express.js", "REST APIs"] },
+    { title: "Database", items: ["MongoDB", "Mongoose"] },
+    { title: "Tools", items: ["Git & GitHub", "VS Code", "Vercel"] },
+  ];
+
   return (
     <main>
       {/* HERO */}
@@ -116,14 +124,25 @@ export default function Home() {
         <div className="mx-auto max-w-245 px-6 py-2">
           <h2 className="text-4xl font-bold mb-3">Skills</h2>
           <div className="text-[#9AA6C0] my-4 mb-6 font-medium max-w-xl">What I used to build</div>
-          <div className="flex flex-wrap gap-3">
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050]  transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">Next.js</span>
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050] transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">React.js</span>
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050] transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">Express.js</span>
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050] transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">JavaScript</span>
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050] transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">Tailwind CSS</span>
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050] transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">MongoDB</span>
-            <span className="bg-[#131A2E] py-2 px-3 rounded-xl border border-[#243050] transition duration-250 hover:-translate-y-0.5 hover:border-[#5B8CFF]">Git & GitHub</span>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {skillGroups.map((g) => (
+              <div
+                key={g.title}
+                className="rounded-[14px] border border-[#243050] bg-[#131A2E] p-5 transition duration-250 hover:-translate-y-1 hover:border-[#5B8CFF] hover:shadow-[0_18px_40px_-18px_rgba(91,140,255,.35)]">
+                <h3 className="mb-3 text-sm font-semibold uppercase tracking-widest text-[#5B8CFF]">
+                  {g.title}
+                </h3>
+                <div className="flex flex-wrap gap-2.5">
+                  {g.items.map((s) => (
+                    <span
+                      key={s}
+                      className="rounded-xl border border-[#243050] bg-[#0B1020] px-4 py-2 text-[15px] transition-colors hover:border-[#5B8CFF]">
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
