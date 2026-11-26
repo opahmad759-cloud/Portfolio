@@ -62,6 +62,24 @@ export default function Home() {
           <div className="grid grid-cols-[repeat(auto-fill,minmax(290px,1fr))] gap-6 mt-8">
             <artical className="flex  rounded-2xl bg-[#131A2E] border border-[#243050] overflow-hidden flex-col transition duration-250 hover:-translate-y-1.5 hover:border-[#5B8CFF] hover:shadow-[0_18px_40px_-18px_rgba(91,140,255,.35)]">
 
+              <div className="flex items-center justify-center border-b border-[#243050] bg-[#0B1020] bg-[linear-gradient(135deg,rgba(91,140,255,.12),transparent_70%)] text-[#E8ECF5] font-semibold aspect-2/1 text-2xl">SmashCart</div>
+              <div>
+                <h3 className="font-bold text-xl pt-3 pl-3 pb-1">SmashCart</h3>
+                <p className="text-[#9AA6C0] px-3 py-1">Full-stack badminton store with auto discounts, free gifts, an admin panel and an AI shopping assistant.</p>
+                <div className="flex gap-2 px-3 py-1 ">
+                  <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">Next</span>
+                  <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">Express</span>
+                  <span className="text-[#5B8CFF] bg-[#5B8CFF]/12 text-sm rounded-2xl px-2 py-1">MongoDB</span>
+                </div>
+                <div className="flex flex-wrap gap-x-4 gap-y-2 px-3 py-1 pb-3 font-semibold text-sm [&>a]:whitespace-nowrap">
+                  <a href="https://smash-cart.vercel.app/" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Live demo →</a>
+                  <a href="https://github.com/opahmad759-cloud/SmashCart" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">Source code →</a>
+                  <a href="https://github.com/opahmad759-cloud/New-folder-2-" className="border-b border-[#243050] font-semibold text-[#E8ECF5] transition-colors duration-300 hover:border-[#5B8CFF] hover:text-[#5B8CFF]">API code →</a>
+                </div>
+              </div>
+            </artical>
+            <artical className="flex  rounded-2xl bg-[#131A2E] border border-[#243050] overflow-hidden flex-col transition duration-250 hover:-translate-y-1.5 hover:border-[#5B8CFF] hover:shadow-[0_18px_40px_-18px_rgba(91,140,255,.35)]">
+
               <div className="flex items-center justify-center border-b border-[#243050] bg-[#0B1020] bg-[linear-gradient(135deg,rgba(91,140,255,.12),transparent_70%)] text-[#E8ECF5] font-semibold aspect-2/1 text-2xl">Get Me A Chai</div>
               <div>
                 <h3 className="font-bold text-xl pt-3 pl-3 pb-1">Get Me A Chai</h3>
